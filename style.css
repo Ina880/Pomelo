@@ -116,9 +116,11 @@ footer {
 .shop img {
     width: 50%;
 }
-.shop h2{
+
+.shop h2 {
     color: red;
 }
+
 .info {
     width: 50%;
     background-color: white;
@@ -207,3 +209,58 @@ input:focus {
     border-color: #E0E9A3;
 }
 
+.menu {
+    display: none;
+}
+
+/* 響應式設計語法 */
+@media screen and (max-width: 768px) {
+    header ul {
+        display: none;
+    }
+
+    header h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .news h2 {
+        font-size: 40px;
+    }
+
+    .menu {
+        display: block;
+        background-color:transparent;
+        color:white;
+        font-size: 35px;
+        position:absolute;
+        top:15px;
+        left:20px;
+        border:none;
+        cursor:pointer;
+    }
+    .shop{
+        flex-direction:column;
+
+    }
+    .shop img{
+        width:100%;
+    }
+    .info{
+        width:100%;
+        padding:40px 0;
+
+    }
+    .info h2{
+        font-size:30px;
+
+    }
+    .product{
+        flex-direction: column;
+        padding: 60px 0;
+
+    }
+    .product div{
+        margin-bottom: 30px;
+    }
+}
