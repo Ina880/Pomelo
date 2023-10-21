@@ -56,7 +56,7 @@ header a:hover {
 }
 
 #bg {
-    background-image: url("/pics/柚子2.jpg");
+    background-image: url("pics/柚子2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
