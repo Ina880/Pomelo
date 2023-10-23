@@ -220,7 +220,7 @@ input:focus {
     }
 
     header h1 {
-        font-size:23px;
+        font-size:22px;
         left: 50%;
         transform: translateX(-50%);
     }
