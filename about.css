@@ -63,8 +63,13 @@ header a:hover {
     margin-bottom: 10px;
 }
 
-.about p{
-    color: blue;
+
+.about p{ 
+    background-color: #5f9ea0;
+    width: 600px;
+    padding: 32px;
+    border-radius: 20px;
+    color: white;
     font-size: 20px;
     margin: 15px 0;
     text-align: left;
